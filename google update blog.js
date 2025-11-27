@@ -410,6 +410,20 @@ function buildGoogleChatViewV1_(feed, update) {
   };
 }
 
+/**
+ * Sends an onboarding message when the Chat app is added to a space.
+ *
+ * @param {Object} event The event object from Chat API.
+ * @return {Object} Response from the Chat app. An onboarding message that
+ * introduces the app and helps people get started with it.
+ */
+function onAddToSpace(event) {
+
+  return {
+    'text': 'Hi, Cymbal at your service. I help you manage your calendar from Google Chat. Take a look at your schedule today by typing `/checkCalendar`, or schedule a meeting with `/scheduleMeeting`. To learn what else I can do, type `/help`.'
+  }
+}
+
 function buildGoogleChatViewV2_(feed, update) {
   return {
     'cardsV2': [{
@@ -462,3 +476,5 @@ function buildGoogleChatViewV2_(feed, update) {
     }]
   }
 }
+
+
