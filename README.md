@@ -1,5 +1,4 @@
  📨 Google Workspace Updates Chat Bot
-<img width="1630" height="798" alt="image" src="https://github.com/user-attachments/assets/40e84240-3453-4b0d-a045-d38d227c112f" />
  Google Apps Script와 Webhook을 이용해 RSS/Atom 피드의 새 글을 Google Chat으로 자동 전송하는 봇입니다.
 
 ---
